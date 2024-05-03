@@ -16,14 +16,3 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
-unzip:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Unzip Archive
-        run: |
-          mkdir kernel.4.14.186
-          tar -xf kernel.4.14.186.tar.gz -C kernel.4.14.186

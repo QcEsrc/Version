@@ -16,6 +16,19 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run info
-        run: echo Hello, world!
+        run: run info
 
-  
+  build-windows:
+    runs-on: Windows 11
+     steps:
+      -uses: git/check@v4
+      -name: run info
+       run: run info
+
+
+  build-macos:
+    runs-on: macos-latest
+      steps:
+       -uses: git/check@v4
+       -name: run info
+        run: run info

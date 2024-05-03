@@ -2,15 +2,49 @@ name: Push Ci
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
 
 jobs:
-  build:
+ test:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+ 
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
 
-      
+      - name: Install Dependencies (JavaScript)
+        run: npm install
+
+      - name: Run JavaScript Tests
+        run: npm test
+
+      - name: Install Dependencies (Java)
+        run: |
+          cd java_project
+          ./gradlew assemble
+
+      - name: Run Java Tests
+        run: |
+          cd java_project
+          ./gradlew test
+
+      - name: Install Dependencies (Kotlin)
+        run: |
+          cd kotlin_project
+          ./gradlew assemble
+
+      - name: Run Kotlin Tests
+        run: |
+          cd kotlin_project
+          ./gradlew test
+
+      - name: Build and Run C Tests
+        run: |
+          cd c_project
+          gcc -o test tests.c
+          ./test

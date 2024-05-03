@@ -17,18 +17,7 @@ jobs:
 
       - name: Run info
         run: run info
-
-  build-windows:
-    runs-on: Windows 11
-     steps:
-      -uses: git/check@v4
-      -name: run info
-       run: run info
-
-
-  build-macos:
-    runs-on: macos-latest
-      steps:
-       -uses: git/check@v4
-       -name: run info
+        
+      - name: use
         run: run info
+        

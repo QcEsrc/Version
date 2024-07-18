@@ -14,6 +14,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "LxynOS"
+rootProject.name = "Coals"
 
 include(":app")

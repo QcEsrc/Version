@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name" translatable="false">xiao cats</string>
+    <string name="title_fragment_valo">post</string>
+    <string name="title_fragment_task">web</string>
+    <string name="title_fragment_save">main</string>
+    <string name="title_fragment_just">post</string>
+    <string name="title_fragment_fast">settings</string>
+    <string name="action_task_1">Unknown</string>
+    <string name="action_task_2">Changelog</string>
+    <string name="action_task_3">About Us</string>
+    <string name="action_xyn_1">Jump to other page</string>
+    <string name="action_xyn_2">Changelog</string>
+    <string name="action_xyn_3">About Us</string>
+    <string name="activity_root_1">click request root</string>
+    <string name="activity_root_2">60hz</string>
+    <string name="activity_root_3">90hz</string>
+    <string name="activity_root_4">120hz</string>
+    <string name="activity_root_5">144hz</string>
+    <string name="activity_root_6">165hz</string>
+    <string name="activity_root_7">200hz</string>
+    <string name="activity_root_8">Developer testing functionality</string>
+    <string name="activity_root_9">When adjusting the screen brightness, you need to turn off the automatic brightness adjustment function of the system. The minimum adjustment can be -70, and the maximum adjustment can be 255. From small to large, from left to right, this function requires su permission, and it is normal to fail to adjust to a negative value. The device may not support negative value adjustment.</string>
+    <string name="activity_root_10">Click Request notification permission</string>
+    <string name="xyn_add_1">main</string>
+    <string name="xyn_add_2">xiaoneko</string>
+    <string name="update_log_title">Update log</string>
+    <string name="update_log_message">v0.0.10 update log: 1.2. 3.</string>
+    <string name="about_we">about Us</string>
+    <string name="about_we_content">Built and compiled by xiaonekoneko, an application built by xiaonekoneko using ide on the mobile phone. The compilation language used by the program is kotlin language. Obfuscation is turned off, but I don’t know why ide still responds to the problem when building the release version. res performs obfuscation operations, developers will not open source code!</string>
+    <string name="xyn_systems_root_1">Kind tips</string>
+    <string name="xyn_systems_root_2">Developers generally use this dialog box to test some functions. Generally, they cannot be executed, so do not try.</string>
+    <string name="xyn_systems_root_3">implement</string>
+    <string name="xyn_systems_root_4">Cancel</string>
+    <string name="xyn_systems_root_5">Okay! Cat knows it~</string>
+    <string name="xyn_main_root_1">Kind tips</string>
+    <string name="xyn_main_root_2">Meow! From today on, you are Maomao’s little master, and Maomao will always be with you! The cat is so cute! My little master, don’t forget to give Maomao super user rights!</string>
+    <string name="xyn_main_root_3">Young Master, don’t forget to give Meow Meow super user rights!</string>
+    <string name="xyn_main_root_4">Kind tips</string>
+    <string name="xyn_main_root_5">90hz has two options. Selecting shell means that only the shell command will be executed, and the front-end service will not be started. Selecting service means that only the front-end service will be started, and the shell command will not be executed.</string>
+    <string name="xyn_main_root_6">Kind tips</string>
+    <string name="xyn_main_root_7">There are two options for 120hz. Selecting shell means only executing shell commands and will not start the foreground service. Selecting service means only starting the foreground service and will not execute shell commands.</string>
+    <string name="xyn_main_root_8">Kind tips</string>
+    <string name="xyn_main_root_9">144hz has two options. Selecting shell means only executing shell commands and will not start the foreground service. Selecting service means only starting the foreground service and will not execute shell commands.</string>
+    <string name="xyn_main_root_10">Kind tips</string>
+    <string name="xyn_main_root_11">165hz has two options. Selecting shell means that only the shell command will be executed, and the front-end service will not be started. Selecting service means that only the front-end service will be started, and the shell command will not be executed.</string>
+    <string name="xyn_main_root_12">Kind tips</string>
+    <string name="xyn_main_root_13">There are two options for 200hz. Selecting shell means only executing shell commands and will not start the foreground service. Selecting service means only starting the foreground service and will not execute shell commands.</string>
+    <string name="xyn_main_root_14">Kind tips</string>
+    <string name="xyn_main_root_15">Sorry, 60hz only has one option: shell. The dialog box is to prevent accidental clicks.</string>
+    <string name="xyn_c1_1">in development……</string>
+    <string name="xyn_sxl_root_1">screen refresh rate: </string>
+    <string name="xyn_sxl_root_2">Screen Resolution：%1$d × %2$d</string>
+    <string name="xyn_toast_1">WuwuX﹏X execution failed</string>
+    <string name="xyn_toast_2">Great! Execution successful</string>
+    <string name="xyn_toast_3">WuwuX﹏XExecution exception: %s</string>
+    <string name="xyn_toast_4">Execution successful: The current refresh rate has been modified to %1$s Hz</string>
+    <string name="xyn_toast_5">Execution failed: Insufficient app permissions or command line error❌</string>
+    <string name="xyn_refresh_1">Current screen refresh rate: %1$s Hz</string>
+    <string name="xyn_adb_1">cat status：adb</string>
+    <string name="xyn_root_1">cat status：root</string>
+    <string name="xyn_adb_2">cat status：no</string>
+    <string name="fragment_save_1">There is no English translation at present.</string>
+    <string name="fragment_save_2">Click on the authorization file related permissions.</string>
+    <string name="fragment_save_3">Su Shellservice regulations.</string>
+
+</resources>

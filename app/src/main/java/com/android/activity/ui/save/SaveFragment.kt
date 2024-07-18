@@ -80,7 +80,7 @@ companion object {
         _binding = FragmentSaveBinding.inflate(inflater, container, false)
         val root: View = binding.root
         
-        lxynsushell()
+        
         
         return root
     }
@@ -147,7 +147,7 @@ companion object {
         }
     } 
 }
-    
+    /*
     private fun lxynsushell() {
      val builder = MaterialAlertDialogBuilder(requireContext())
         .setTitle(R.string.fragment_save_3)
@@ -160,7 +160,7 @@ companion object {
     dialog.setCanceledOnTouchOutside(false)
     dialog.show()
 }
-     /*
+
     private fun executeShellCommand() {
     val command = commandEditText.text.toString().trim()
     if (command.isNotEmpty()) {

@@ -40,13 +40,13 @@ import android.app.NotificationManager
 import android.net.Uri
 import android.net.ConnectivityManager
 
-public class LxynService90 : Service() {
+public class LxynService200 : Service() {
 
 companion object {
     init {
         System.loadLibrary("shell")
     }
-    private const val NOTIFICATION_ID = 90
+    private const val NOTIFICATION_ID = 200
 }
     private lateinit var notification: Notification
     private val coroutineScope = CoroutineScope(Dispatchers.IO)
@@ -55,12 +55,12 @@ companion object {
     override fun onCreate() {
         super.onCreate()
         val notificationManager = getSystemService(NotificationManager::class.java)
-    val channel = NotificationChannel("90hz_Foreground_Service", "90hz Foreground Service", NotificationManager.IMPORTANCE_HIGH)
+    val channel = NotificationChannel("200hz_Foreground_Service", "200hz Foreground Service", NotificationManager.IMPORTANCE_HIGH)
     notificationManager.createNotificationChannel(channel)
 
-    notification = NotificationCompat.Builder(this, "90hz_Foreground_Service")
+    notification = NotificationCompat.Builder(this, "200hz_Foreground_Service")
         .setPriority(NotificationCompat.PRIORITY_HIGH)
-        .setContentTitle("90hz Foreground Service")
+        .setContentTitle("200hz Foreground Service")
         .setSmallIcon(R.drawable.ic_xyn_boot_app)
         .build()
         
@@ -95,16 +95,16 @@ companion object {
 
     private suspend fun executePeakRefreshRateCommand() {
             val commands = listOf(
-                "su -c settings put secure refresh_rate_mode 90",
-                "su -c settings put secure miui_refresh_rate 90",
-                "su -c settings put secure user_refresh_rate 90",
-                "su -c settings put secure peak_refresh_rate 90",
-                "su -c settings put secure min_refresh_rate 90",
-                "su -c settings put system refresh_rate_mode 90",
-                "su -c settings put system miui_refresh_rate 90",
-                "su -c settings put system user_refresh_rate 90",
-                "su -c settings put system peak_refresh_rate 90",
-                "su -c settings put system min_refresh_rate 90"
+                "su -c settings put secure refresh_rate_mode 200",
+                "su -c settings put secure miui_refresh_rate 200",
+                "su -c settings put secure user_refresh_rate 200",
+                "su -c settings put secure peak_refresh_rate 200",
+                "su -c settings put secure min_refresh_rate 200",
+                "su -c settings put system refresh_rate_mode 200",
+                "su -c settings put system miui_refresh_rate 200",
+                "su -c settings put system user_refresh_rate 200",
+                "su -c settings put system peak_refresh_rate 200",
+                "su -c settings put system min_refresh_rate 200"
             )
 
             for (command in commands) {

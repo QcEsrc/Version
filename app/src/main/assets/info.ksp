@@ -1,0 +1,69 @@
+plugins {
+    id("com.android.application") version "8.2.1" apply false
+    id("com.android.library") version "8.2.1" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.22" apply false
+}
+android {
+    androidResources {
+        noCompress.add(".so")
+    }
+    defaultConfig {
+        vectorDrawables { 
+            useSupportLibrary = true
+        }
+        externalNativeBuild {
+            cmake {
+                abiFilters("arm64-v8a", "x86_64")
+                
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
+        aidl = true
+        buildConfig = true
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

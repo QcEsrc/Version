@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:shell="true"
+    android:singleUser="true"
+    android:installLocation="auto">
+    
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:xlargeScreens="true" />
+
+     <queries>
+        <package android:name="android" />
+        <package android:name="com.termux" />
+        <package android:name="com.xiaomi.joyose" />
+        <package android:name="com.xiaomi.market" />
+        <package android:name="com.miui.freeform" />
+        <package android:name="com.miui.analytics" />
+        <package android:name="com.android.settings" />
+        <package android:name="com.xiaomi.misettings" />
+        <package android:name="com.miui.guardprovider" />
+        <package android:name="com.android.shell" />
+        <package android:name="com.miui.securitycore" />
+        <package android:name="com.miui.securitycenter" />
+        <package android:name="com.miui.dmregservice" />
+        <package android:name="com.miui.powerkeeper" />
+        <package android:name="com.xiaomi.registration" />
+        <package android:name="com.android.systemui" />
+        <package android:name="com.miui.home" />
+        <package android:name="com.miui.core" />
+        <package android:name="com.google.android.gms" />
+        <package android:name="com.miui.securityadd" />
+        <package android:name="com.android.networkstack" />
+        <package android:name="com.miui.systemAdSolution" />
+        <package android:name="com.android.adservices.api" />
+        <package android:name="com.xiaomi.migameservice" />
+        <package android:name="com.xiaomi.location.fused" />
+        <package android:name="com.miui.system.overlay" />
+        <package android:name="com.google.android.webview" />
+        <package android:name="com.miui.mishare.connectivity" />
+        <package android:name="com.android.permissioncontroller" />
+        <package android:name="com.xiaomi.gamecenter.sdk.service" />
+     </queries>
+
+    <queries>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <category
+                android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <category
+                android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="http" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <category
+                android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="ftp" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <category
+                android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="market" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <category
+                android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="vpn" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="ftp" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="market" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="vpn" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <data android:scheme="http" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <data android:scheme="ftp" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <data android:scheme="market" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <data android:scheme="vpn" />
+        </intent>
+    </queries>
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+    <uses-permission android:name="android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND" />
+    <uses-permission android:name="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission  android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission  android:name="android.permission.WAKE_LOCK" />
+    
+    <application 
+        android:allowBackup="true" 
+        android:usesNonSdkApi="true"
+        android:isSplitRequired="true"
+        android:extractNativeLibs="true"
+        android:resizeableActivity="true"
+        android:usesCleartextTraffic="true"
+        android:attributionsAreUserVisible="true"
+        android:preserveLegacyExternalStorage="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:icon="@mipmap/ic_launcher" 
+        android:roundIcon="@mipmap/ic_launcher" 
+        android:label="@string/app_name" 
+        android:supportsRtl="true" 
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="support"
+            android:value="android 10 ~ 14" />
+        <meta-data
+            android:name="CPU support"
+            android:value="arm64-v8a、x86_64" />
+        <meta-data
+			android:name="miui support"
+			android:value="v12.5 ~ v816.0" />
+		<meta-data
+			android:name="root support"
+			android:value="KernelSU/Magisk" />
+        <meta-data
+			android:name="appid"
+			android:resource="@raw/appid" />
+        <meta-data
+			android:name="Xposed support"
+			android:value="v80 ~ v100" />
+			
+        <activity 
+            android:name="com.android.activity.LxynActivity" 
+            android:showForAllUsers="false"
+            android:permission="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND"
+            android:immersive="true"
+            android:launchMode="singleInstancePerTask"
+            android:windowSoftInputMode="adjustPan"
+            android:directBootAware="true"
+            android:exported="true">
+            <meta-data 
+                 android:name="android.app.shortcuts"
+                 android:resource="@xml/shortcuts" />
+        </activity>
+			
+        <activity 
+            android:name="com.android.activity.TaskActivity" 
+            android:permission="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND"
+            android:immersive="true"
+            android:launchMode="singleInstancePerTask"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="true" >
+            <intent-filter>
+                <action 
+                    android:name="android.intent.action.MAIN" />
+                <category 
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data 
+                 android:name="android.app.shortcuts"
+                 android:resource="@xml/xyn_ccc" />
+        </activity>
+            
+        <service 
+            android:name="com.android.activity.service.LxynService90" 
+            android:exported="false"
+            android:permission="android.permission.FOREGROUND_SERVICE"
+            android:foregroundServiceType="specialUse"
+            android:directBootAware="true" />
+            
+        <service 
+            android:name="com.android.activity.service.LxynService120" 
+            android:exported="false"
+            android:permission="android.permission.FOREGROUND_SERVICE"
+            android:foregroundServiceType="specialUse"
+            android:directBootAware="true" />
+            
+        <service 
+            android:name="com.android.activity.service.LxynService144" 
+            android:exported="false"
+            android:permission="android.permission.FOREGROUND_SERVICE"
+            android:foregroundServiceType="specialUse"
+            android:directBootAware="true" />
+            
+        <service 
+            android:name="com.android.activity.service.LxynService165" 
+            android:exported="false"
+            android:permission="android.permission.FOREGROUND_SERVICE"
+            android:foregroundServiceType="specialUse"
+            android:directBootAware="true" />
+            
+        <service 
+            android:name="com.android.activity.service.LxynService200" 
+            android:exported="false"
+            android:permission="android.permission.FOREGROUND_SERVICE"
+            android:foregroundServiceType="specialUse"
+            android:directBootAware="true" />
+        
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="xyn.xyn.xyn.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/xyn" />
+       </provider>
+       
+    </application>
+</manifest>

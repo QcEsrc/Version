@@ -1,4 +1,4 @@
-# App source code is open
+# Open app source code
 
 Application source code is open
 ------

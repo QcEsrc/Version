@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_name">exeShell</string>
+<string name="app_name">māo yǔ nǎ</string>
 <string name="title_fragment_valo">非礼</string>
 <string name="title_fragment_task">日志</string>
 <string name="title_fragment_save">小终端</string>
@@ -25,7 +25,7 @@
 <string name="xyn_add_1">主活动</string>
 <string name="xyn_add_2">小猫猫</string>
 <string name="update_log_title">更新日志</string>
-<string name="update_log_message">v0.0.10更新日志: 1.2. 3.</string>
+<string name="update_log_message">更新日志: 1.2. 3.</string>
 <string name="about_we">关于我们</string>
 <string name="about_we_content">由xiaonekoneko构建编译，xiaonekoneko使用手机上的ide构建的一个应用程序，该程序使用的编译语言为kotlin语言，关闭了混淆了，但不知道为什么在构建release版本时，ide还会对res进行混淆操作，开发者不会开放源代码！</string>
 <string name="xyn_systems_root_1">温馨提示</string>
@@ -33,9 +33,9 @@
 <string name="xyn_systems_root_3">执行</string>
 <string name="xyn_systems_root_4">算了</string>
 <string name="xyn_systems_root_5">好的呢！猫猫知道啦~</string>
-<string name="xyn_main_root_1">温馨提示</string>
-<string name="xyn_main_root_2">喵！从今天起您就是猫猫的小少爷了，猫猫会一直陪着小少爷！猫猫超乖啦！我的小少爷可别忘了给猫猫超级用户权限哦！</string>
-<string name="xyn_main_root_3">小少爷可别忘了给喵喵超级用户权限哦！</string>
+<string name="xyn_main_root_1">猫猫提示</string>
+<string name="xyn_main_root_2">还请使用KernelSU或者Magisk自行授权root权限，没有root权限，执行失败，与猫猫无关</string>
+<string name="xyn_main_root_3">别忘了给猫猫授权root权限哦！</string>
 <string name="xyn_main_root_4">温馨提示</string>
 <string name="xyn_main_root_5">90hz有两个选项，选择shell代表只执行shell命令，不会启动前台Service，选择Service代表只启动前台Service，不会执行shell命令</string>
 <string name="xyn_main_root_6">温馨提示</string>
@@ -61,7 +61,7 @@
 <string name="xyn_root_1">猫猫状态：root</string>
 <string name="xyn_adb_2">猫猫状态：无权限</string>
 <string name="fragment_save_1">这不是终端，别太离谱，能用就用，用的Android原生exec方法实现的，默认工作目录是/sdcard/目录</string>
-<string name="fragment_save_2">点击授权文件相关权限</string>
+<string name="fragment_save_2">点击授权相关权限</string>
 <string name="fragment_save_3">Su Shell使用规则</string>
 
 

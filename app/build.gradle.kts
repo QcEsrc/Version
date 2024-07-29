@@ -20,10 +20,10 @@ android {
     
     defaultConfig {
         applicationId = "xyn.xyn.xyn"
-        minSdk = 26
+        minSdk = 29
         targetSdk = 34
-        versionCode = 10
-        versionName = "v1.8.86"
+        versionCode = 16
+        versionName = "v2.0.999"
         
         vectorDrawables { 
             useSupportLibrary = true
@@ -55,11 +55,13 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles("proguard-rules.pro")
+         //   signingConfig = signingConfigs.getByName("apply")
         }
         debug {
             isMinifyEnabled = false
             isDebuggable = true
             proguardFiles("proguard-rules-debug.pro")
+         //   signingConfig = signingConfigs.getByName("apply")
         }
     }
 
@@ -88,6 +90,4 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("androidx.core:core-ktx:1.8.0")
     implementation("com.android.tools.ddms:ddmlib:31.5.1")
-    implementation("dev.rikka.shizuku:api:13.1.5")
-    implementation("dev.rikka.shizuku:provider:13.1.5")
 }

@@ -7,6 +7,13 @@
      android:layout_width="match_parent"
      tools:context="com.android.activity.ui.task.TaskFragment" >
         
-    
+    <TextView
+       android:id="@+id/javalog_TextView"
+       android:layout_height="match_parent"
+       android:layout_width="match_parent"
+       android:layout_marginBottom="80dp"
+       android:longClickable="true"
+       android:textIsSelectable="true"
+       android:textSize="16sp" />
      
 </androidx.core.widget.NestedScrollView>

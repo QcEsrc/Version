@@ -1,13 +1,21 @@
 package com.android.activity
 
 import android.os.Bundle
+import android.os.Build
+import android.app.Dialog
 import android.widget.Toast
+import android.widget.ImageView
 import android.view.View
+import android.os.Handler
+import android.os.Looper
+import android.view.Window
 import android.view.WindowManager
 import android.view.Menu
 import android.view.MenuItem
+import android.view.LayoutInflater
 import android.content.Intent
 import android.content.Context
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.NavController
@@ -32,11 +40,12 @@ companion object {
     private var navController: NavController? = null
     private var appBarConfiguration: AppBarConfiguration? = null
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityTaskBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
 
          navController = findNavController(R.id.nav_host_fragment_activity_task)
          appBarConfiguration = AppBarConfiguration(
@@ -77,12 +86,11 @@ companion object {
             .setTitle(R.string.update_log_title)
             .setMessage(R.string.update_log_message)
             .setPositiveButton("ok") { _, _ ->
-        // 处理确认操作
+        
     }
-           // 显示对话框
+           
         val dialog = builder.create()
-        dialog.setCancelable(true) // 启用返回按钮
-        // 禁用外部点击
+        dialog.setCancelable(true)
         dialog.setCanceledOnTouchOutside(false)
         dialog.show()
     }
@@ -93,12 +101,10 @@ companion object {
             .setTitle(R.string.about_we)
             .setMessage(R.string.about_we_content)
             .setPositiveButton("ok") { _, _ ->
-        // 处理确认操作
+        
     }
-           // 显示对话框
         val dialog = builder.create()
-        dialog.setCancelable(true) // 启用返回按钮
-        // 禁用外部点击
+        dialog.setCancelable(true)
         dialog.setCanceledOnTouchOutside(false)
         dialog.show()
     }

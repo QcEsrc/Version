@@ -11,6 +11,7 @@ import android.os.Environment
 
 import xyn.xyn.xyn.R
 import xyn.xyn.xyn.databinding.ActivityLxynBinding
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
 import androidx.core.app.ActivityCompat
@@ -112,7 +113,7 @@ companion object {
     private var activityHeight: Int = 0
     
     private lateinit var timer: Timer
-    private var checkInterval = 5000L // 5 秒钟检查一次
+    private var checkInterval = 5000L
     
     private lateinit var refreshRateUpdateTimer: Timer
       
@@ -120,8 +121,8 @@ companion object {
         super.onCreate(savedInstanceState)
         binding = ActivityLxynBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        
-          lxynass()
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+        lxynass()
         
          root1 = binding.root1
          root2 = binding.root2
@@ -149,12 +150,10 @@ companion object {
             }
 
             override fun onStartTrackingTouch(seekBar: SeekBar?) {
-                // 用户开始拖动seekBar时触发
                 setScreenBrightness(root1c?.progress ?: 0)
             }
 
             override fun onStopTrackingTouch(seekBar: SeekBar?) {
-                // 用户停止拖动seekBar时触发
                 
             }
         })
@@ -172,10 +171,8 @@ companion object {
         )
         root4.text = screenResolutionText2
 
-            // 获取初始屏幕刷新率并更新显示
         updateScreenRefreshRateDisplay()
 
-         // 启动定时器,每3秒钟更新一次屏幕刷新率显示
         refreshRateUpdateTimer = Timer()
         refreshRateUpdateTimer.schedule(object : TimerTask() {
         override fun run() {
@@ -391,25 +388,20 @@ companion object {
     }
     
     private fun lxynass() {
-    
-           // 创建对话框
         val builder = MaterialAlertDialogBuilder(this)
             .setTitle(R.string.xyn_main_root_1)
             .setMessage(R.string.xyn_main_root_2)
+            .setIcon(R.drawable.ic_xyn_main)
             .setPositiveButton("ok") { _, _ ->
-                // 在确定按钮点击时的逻辑处理
                 Toast.makeText(this, getString(R.string.xyn_main_root_3), Toast.LENGTH_SHORT).show()
                 }
-           // 显示对话框
         val dialog = builder.create()
-        dialog.setCancelable(false) // 禁用返回按钮
-        dialog.setCanceledOnTouchOutside(false) // 禁用对话框外部的点击
+        dialog.setCancelable(false)
+        dialog.setCanceledOnTouchOutside(false)
         dialog.show()
     }
     
     private fun lxynroot() {
-    
-        // 创建对话框
         val builder = MaterialAlertDialogBuilder(this)
             .setTitle(R.string.xyn_systems_root_1)
             .setMessage(R.string.xyn_systems_root_2)
@@ -420,10 +412,8 @@ companion object {
              Toast.makeText(this, getString(R.string.xyn_systems_root_5), Toast.LENGTH_SHORT).show()
              
            }
-           // 显示对话框
         val dialog = builder.create()
-        dialog.setCancelable(true) // 启用返回按钮
-        // 启用外部点击
+        dialog.setCancelable(true)
         dialog.setCanceledOnTouchOutside(true) 
         dialog.show()
     }
@@ -434,12 +424,10 @@ companion object {
             .setTitle(R.string.update_log_title)
             .setMessage(R.string.update_log_message)
             .setPositiveButton("ok") { _, _ ->
-        // 处理确认操作
+        
     }
-           // 显示对话框
         val dialog = builder.create()
-        dialog.setCancelable(true) // 启用返回按钮
-        // 禁用外部点击
+        dialog.setCancelable(true)
         dialog.setCanceledOnTouchOutside(false)
         dialog.show()
     }
@@ -450,12 +438,10 @@ companion object {
             .setTitle(R.string.about_we)
             .setMessage(R.string.about_we_content)
             .setPositiveButton("ok") { _, _ ->
-        // 处理确认操作
+        
     }
-           // 显示对话框
         val dialog = builder.create()
-        dialog.setCancelable(true) // 启用返回按钮
-        // 禁用外部点击
+        dialog.setCancelable(true) 
         dialog.setCanceledOnTouchOutside(false)
         dialog.show()
     }
@@ -534,10 +520,8 @@ companion object {
     }
     
     private fun updateScreenRefreshRateDisplay() {
-        // 获取当前屏幕刷新率
        val currentRefreshRate = windowManager.defaultDisplay.refreshRate
         runOnUiThread {
-        // 更新显示
         root1.text = getString(R.string.xyn_refresh_1, currentRefreshRate.toString())
       }
    }

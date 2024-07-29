@@ -61,7 +61,7 @@ companion object {
     notification = NotificationCompat.Builder(this, "90hz_Foreground_Service")
         .setPriority(NotificationCompat.PRIORITY_HIGH)
         .setContentTitle("90hz Foreground Service")
-        .setSmallIcon(R.drawable.ic_xyn_boot_app)
+        .setSmallIcon(R.drawable.ic_xyn_main)
         .build()
         
         isServiceRunning = true

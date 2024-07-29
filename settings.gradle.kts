@@ -14,6 +14,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Coals"
+rootProject.name = "Coals-main"
 
 include(":app")

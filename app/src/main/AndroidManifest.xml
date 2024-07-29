@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:shell="true"
-    android:singleUser="true"
     android:installLocation="auto">
     
     <supports-screens
@@ -19,18 +17,10 @@
         <package android:name="com.xiaomi.joyose" />
         <package android:name="com.miui.analytics" />
         <package android:name="com.android.settings" />
-        <package android:name="org.lsposed.daemon" />
-        <package android:name="org.lsposed.manager" />
         <package android:name="me.weishu.kernelsu" />
         <package android:name="io.github.huskydg.magisk" />
-        <package android:name="com.rosan.dhizuku" />
-        <package android:name="moe.shizuku.privileged.api" />
         <package android:name="me.jsonet.jshook" />
         <package android:name="com.xiaomi.market" />
-        <package android:name="de.robv.android.xposed.installer" />
-        <package android:name="me.weishu.dirtypipecheck" />
-        <package android:name="org.lsposed.lspatch" />
-        <package android:name="org.lsposed.opatch" />
      </queries>
 
     <queries>
@@ -111,11 +101,18 @@
         </intent>
     </queries>
     
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.DUMP" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" />
-    <uses-permission android:name="com.rosan.dhizuku.permission.API" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
@@ -133,6 +130,228 @@
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
     <uses-permission  android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission  android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIMAX_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_PROFILE" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM" />
+    <uses-permission android:name="android.permission.WRITE_SOCIAL_STREAM" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.READ_INSTALL_SESSIONS" />
+    <uses-permission android:name="android.permission.CHANGE_WIMAX_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_INSTALL_SESSIONS" />
+    <uses-permission android:name="android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION" />
+    
+    <permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.WRITE_SETTINGS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.RESTART_PACKAGES"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.GET_ACCOUNTS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.GET_TASKS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.MANAGE_ACCOUNTS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.AUTHENTICATE_ACCOUNTS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.POST_NOTIFICATIONS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.USE_CREDENTIALS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.BROADCAST_STICKY"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_MEDIA_IMAGES"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_MEDIA_AUDIO"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_MEDIA_VIDEO"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.INTERNET"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.INTERACT_ACROSS_USERS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.DUMP"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.BATTERY_STATS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.ACCESS_GPS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.ACCESS_WIMAX_STATE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_LOGS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.REQUEST_INSTALL_PACKAGES"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.CHANGE_WIMAX_STATE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_INSTALL_SESSIONS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_OWNER_DATA"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.USE_SIP"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.TRANSMIT_IR"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.VIBRATE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.NFC"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.BODY_SENSORS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.FLASHLIGHT"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_APP_BADGE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.WRITE_SOCIAL_STREAM"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_SOCIAL_STREAM"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_PROFILE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.WRITE_PROFILE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_USER_DICTIONARY"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.WRITE_USER_DICTIONARY"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.INTERACT_ACROSS_USERS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.READ_INSTALL_SESSIONS"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="android.permission.DELETE_PACKAGES"
+        android:protectionLevel="signature" />
     
     <application 
         android:allowBackup="true" 
@@ -145,6 +364,7 @@
         android:attributionsAreUserVisible="true"
         android:preserveLegacyExternalStorage="true"
         android:networkSecurityConfig="@xml/network_security_config"
+        android:name="com.android.activity.application.Lxynapplication"
         android:appCategory="productivity"
         android:icon="@mipmap/ic_launcher" 
         android:roundIcon="@mipmap/ic_launcher" 
@@ -153,7 +373,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="support"
-            android:value="android 8.0 ~ 14" />
+            android:value="android 10 ~ 14" />
         <meta-data
             android:name="CPU support"
             android:value="arm64-v8a、x86_64" />
@@ -162,13 +382,10 @@
 			android:value="v12.5 ~ v816.0" />
 		<meta-data
 			android:name="root support"
-			android:value="KernelSU/Magisk" />
+			android:value="KernelSU/Magisk/Kitsune" />
         <meta-data
-			android:name="Xposed support"
-			android:value="v80 ~ v100" />
-        <meta-data
-           android:name="moe.shizuku.client.V3_SUPPORT"
-           android:value="true" />
+			android:name="shell support"
+			android:value="adb/sh/su" />
 			
         <activity 
             android:name="com.android.activity.LxynActivity" 
@@ -196,6 +413,9 @@
                     android:name="android.intent.action.MAIN" />
                 <category 
                     android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
             </intent-filter>
             <meta-data 
                  android:name="android.app.shortcuts"
@@ -246,14 +466,6 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/xyn" />
        </provider>
-        
-    <provider
-           android:name="rikka.shizuku.ShizukuProvider"
-           android:authorities="xyn.xyn.xyn.shizuku"
-           android:multiprocess="false"
-           android:enabled="true"
-           android:exported="true"
-           android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
        
     </application>
 </manifest>

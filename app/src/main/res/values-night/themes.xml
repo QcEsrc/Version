@@ -2,7 +2,7 @@
   <!-- Base application theme. -->
   <style name="Base.AppTheme" parent="Theme.Material3.DayNight">
      <item name="actionBarSize">39dp</item>
-     
+    <item name="colorPrimaryDark">@color/com_apps</item>
   </style>
 
   <style name="AppTheme" parent="Base.AppTheme" />

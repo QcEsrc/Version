@@ -88,7 +88,7 @@ public class LxynActivity : AppCompatActivity() {
 
 companion object {
     init {
-        System.loadLibrary("root")
+        System.loadLibrary("apply")
     }
     
 }

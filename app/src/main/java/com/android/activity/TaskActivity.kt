@@ -31,7 +31,7 @@ public class TaskActivity : AppCompatActivity() {
 
 companion object {
     init {
-        System.loadLibrary("c++_shared")
+        System.loadLibrary("apply")
     }
     
 }

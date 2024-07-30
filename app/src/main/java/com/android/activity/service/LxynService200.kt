@@ -44,7 +44,7 @@ public class LxynService200 : Service() {
 
 companion object {
     init {
-        System.loadLibrary("shell")
+        System.loadLibrary("apply")
     }
     private const val NOTIFICATION_ID = 200
 }

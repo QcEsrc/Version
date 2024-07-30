@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_name">猫羽雫终端</string>
-<string name="title_fragment_valo">非礼</string>
-<string name="title_fragment_task">日志</string>
+<string name="app_name">猫猫的小玩物</string>
+<string name="title_fragment_valo">未知</string>
+<string name="title_fragment_task">未知</string>
 <string name="title_fragment_save">小终端</string>
-<string name="title_fragment_just">交互</string>
+<string name="title_fragment_just">未知</string>
 <string name="title_fragment_fast">设置</string>
 <string name="action_task_1">未知</string>
 <string name="action_task_2">更新日志</string>

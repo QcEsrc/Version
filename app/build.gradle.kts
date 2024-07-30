@@ -13,17 +13,21 @@ android {
         noCompress.add(".so")
     }
     
-    packagingOptions {
-        exclude("META-INF/LGPL2.1")
-        exclude("META-INF/AL2.0")
+    packaging {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
     }
     
     defaultConfig {
         applicationId = "xyn.xyn.xyn"
         minSdk = 29
         targetSdk = 34
-        versionCode = 16
-        versionName = "v2.0.999"
+        versionCode = 17
+        versionName = "v2.1.0"
         
         vectorDrawables { 
             useSupportLibrary = true
@@ -46,6 +50,99 @@ android {
         
     }
     
+    signingConfigs {
+        create("apply-md5") {
+        // 签名路径，签名文件，.bks 或 .jks
+            storeFile = file("apply/apply-md5.keystore")
+        
+            storePassword = "addistykwryuiolpak777300066653000"
+        
+            keyAlias = "null"
+        
+            keyPassword = "csisteiokweyrulpin888700099987000"
+            
+            enableV1Signing = false
+            enableV2Signing = true
+            enableV3Signing = true
+            enableV4Signing = true
+        }
+        create("apply-sha1") {
+        // 签名路径，签名文件，.bks 或 .jks
+            storeFile = file("apply/apply-sha1.keystore")
+        
+            storePassword = "addistykwryuiolpak777300066653000"
+        
+            keyAlias = "null"
+        
+            keyPassword = "csisteiokweyrulpin888700099987000"
+            
+            enableV1Signing = false
+            enableV2Signing = true
+            enableV3Signing = true
+            enableV4Signing = true
+        }
+        create("apply-sha224") {
+        // 签名路径，签名文件，.bks 或 .jks
+            storeFile = file("apply/apply-sha224.keystore")
+        
+            storePassword = "addistykwryuiolpak777300066653000"
+        
+            keyAlias = "null"
+        
+            keyPassword = "csisteiokweyrulpin888700099987000"
+            
+            enableV1Signing = false
+            enableV2Signing = true
+            enableV3Signing = true
+            enableV4Signing = true
+        }
+        create("apply-sha256") {
+        // 签名路径，签名文件，.bks 或 .jks
+            storeFile = file("apply/apply-sha256.keystore")
+        
+            storePassword = "addistykwryuiolpak777300066653000"
+        
+            keyAlias = "null"
+        
+            keyPassword = "csisteiokweyrulpin888700099987000"
+            
+            enableV1Signing = false
+            enableV2Signing = true
+            enableV3Signing = true
+            enableV4Signing = true
+        }
+        create("apply-sha384") {
+        // 签名路径，签名文件，.bks 或 .jks
+            storeFile = file("apply/apply-sha384.keystore")
+        
+            storePassword = "addistykwryuiolpak777300066653000"
+        
+            keyAlias = "null"
+        
+            keyPassword = "csisteiokweyrulpin888700099987000"
+            
+            enableV1Signing = false
+            enableV2Signing = true
+            enableV3Signing = true
+            enableV4Signing = true
+        }
+        create("apply-sha512") {
+        // 签名路径，签名文件，.bks 或 .jks
+            storeFile = file("apply/apply-sha512.keystore")
+        
+            storePassword = "addistykwryuiolpak777300066653000"
+        
+            keyAlias = "null"
+        
+            keyPassword = "csisteiokweyrulpin888700099987000"
+            
+            enableV1Signing = false
+            enableV2Signing = true
+            enableV3Signing = true
+            enableV4Signing = true
+        }
+    }
+    
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -54,14 +151,15 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
+            isShrinkResources = false
             proguardFiles("proguard-rules.pro")
-         //   signingConfig = signingConfigs.getByName("apply")
+            signingConfig = signingConfigs.getByName("apply-sha384")
         }
         debug {
             isMinifyEnabled = false
             isDebuggable = true
             proguardFiles("proguard-rules-debug.pro")
-         //   signingConfig = signingConfigs.getByName("apply")
+            signingConfig = signingConfigs.getByName("apply-sha384")
         }
     }
 
@@ -89,5 +187,4 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.9.2")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("androidx.core:core-ktx:1.8.0")
-    implementation("com.android.tools.ddms:ddmlib:31.5.1")
 }

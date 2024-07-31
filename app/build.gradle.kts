@@ -24,10 +24,10 @@ android {
     
     defaultConfig {
         applicationId = "xyn.xyn.xyn"
-        minSdk = 29
+        minSdk = 23
         targetSdk = 34
-        versionCode = 17
-        versionName = "v2.1.0"
+        versionCode = 18
+        versionName = "v2.1.1"
         
         vectorDrawables { 
             useSupportLibrary = true
@@ -35,7 +35,7 @@ android {
         
         externalNativeBuild {
             cmake {
-                abiFilters("arm64-v8a", "x86_64")
+                abiFilters("arm64-v8a", "armeabi-v7a", "x86_64")
                 
             }
         }

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:shell="true"
-    android:sharedUserId="xyn.xyn.xyn"
-    android:sharedUserMaxSdkVersion="32"
-    android:targetSandboxVersion="2"
     android:installLocation="auto">
     
     <supports-screens

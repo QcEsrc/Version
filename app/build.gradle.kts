@@ -55,11 +55,11 @@ android {
         // 签名路径，签名文件，.bks 或 .jks
             storeFile = file("apply/apply-md5.keystore")
         
-            storePassword = "addistykwryuiolpak777300066653000"
+            storePassword = ""
         
             keyAlias = "null"
         
-            keyPassword = "csisteiokweyrulpin888700099987000"
+            keyPassword = ""
             
             enableV1Signing = false
             enableV2Signing = true
@@ -70,11 +70,11 @@ android {
         // 签名路径，签名文件，.bks 或 .jks
             storeFile = file("apply/apply-sha1.keystore")
         
-            storePassword = "addistykwryuiolpak777300066653000"
+            storePassword = ""
         
             keyAlias = "null"
         
-            keyPassword = "csisteiokweyrulpin888700099987000"
+            keyPassword = ""
             
             enableV1Signing = false
             enableV2Signing = true
@@ -85,11 +85,11 @@ android {
         // 签名路径，签名文件，.bks 或 .jks
             storeFile = file("apply/apply-sha224.keystore")
         
-            storePassword = "addistykwryuiolpak777300066653000"
+            storePassword = ""
         
             keyAlias = "null"
         
-            keyPassword = "csisteiokweyrulpin888700099987000"
+            keyPassword = ""
             
             enableV1Signing = false
             enableV2Signing = true
@@ -100,11 +100,11 @@ android {
         // 签名路径，签名文件，.bks 或 .jks
             storeFile = file("apply/apply-sha256.keystore")
         
-            storePassword = "addistykwryuiolpak777300066653000"
+            storePassword = ""
         
             keyAlias = "null"
         
-            keyPassword = "csisteiokweyrulpin888700099987000"
+            keyPassword = ""
             
             enableV1Signing = false
             enableV2Signing = true
@@ -115,11 +115,11 @@ android {
         // 签名路径，签名文件，.bks 或 .jks
             storeFile = file("apply/apply-sha384.keystore")
         
-            storePassword = "addistykwryuiolpak777300066653000"
+            storePassword = ""
         
             keyAlias = "null"
         
-            keyPassword = "csisteiokweyrulpin888700099987000"
+            keyPassword = ""
             
             enableV1Signing = false
             enableV2Signing = true
@@ -130,11 +130,11 @@ android {
         // 签名路径，签名文件，.bks 或 .jks
             storeFile = file("apply/apply-sha512.keystore")
         
-            storePassword = "addistykwryuiolpak777300066653000"
+            storePassword = ""
         
             keyAlias = "null"
         
-            keyPassword = "csisteiokweyrulpin888700099987000"
+            keyPassword = ""
             
             enableV1Signing = false
             enableV2Signing = true

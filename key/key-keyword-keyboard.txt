@@ -1,3 +1,0 @@
-storePassword: addistykwryuiolpak777300066653000
-keyAlias: null
-keyPassword: csisteiokweyrulpin888700099987000

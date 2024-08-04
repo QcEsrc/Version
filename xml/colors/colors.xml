@@ -1,1 +1,25 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="com_app">#FF000000</color>
+    <color name="com_app_c">#FFD967D6</color>
+    <color name="com_app_s">#FFE1B0FF</color>
+    <color name="com_apps">#FF000000</color>
+    <color name="com_apps_c">#FFD967D6</color>
+    <color name="com_apps_s">#FFE1B0FF</color>
+    <color name="com_apps_ss">#FFE1B0FF</color>
+    <color name="lxyn_dialog_background">#FFFFCAF7</color>
+    <color name="task_dialog_background">#FFE1B0FF</color>
+    <color name="task_save_card">#FFFFCAF7</color>
+    <color name="task_save_text">#FF142DF4</color>
+    <color name="task_save_edit">#FF9612ED</color>
+    <color name="task_save_view">#FF9612ED</color>
+    <color name="task_save_button">#FFF494FB</color>
+    <color name="task_menu_item_color">#FF13EDE9</color>
+    <color name="usb_activity_text">#FFDD77F5</color>
+    <color name="lxyn_activity_text">#FF142DF4</color>
+    <color name="lxyn_activity_button">#FFE1B0FF</color>
+    <color name="lxyn_activity_button_text">#FF142DF4</color>
+    <color name="lxyn_activity_seekbar_a">#FF9612ED</color>
+    <color name="lxyn_activity_seekbar_b">#FFFFCAF7</color>
+    <color name="lxyn_activity_card">#FFFFCAF7</color>
+</resources>

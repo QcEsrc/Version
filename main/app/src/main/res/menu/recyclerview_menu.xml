@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_view"
+        android:title="@string/task_just_view1" />
+</menu>

@@ -1,0 +1,2762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:id="@+id/androidx_NestedScrollView"
+     android:background="@color/com_app_s"
+     tools:context="com.android.activity.ui.valo.ValoFragment" >
+    
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="top"
+         android:paddingTop="40dp"
+         android:paddingEnd="5dp"
+         android:paddingStart="5dp"
+         android:paddingBottom="80dp"
+         android:orientation="vertical">
+
+   <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:orientation="vertical">
+    
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_magisk"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title1"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view1"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url1"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+    
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_kernelsu"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title2"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view2"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url2"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+    
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_lsp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title3"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view3"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url3"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+    
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView4"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_modules"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title4"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view4"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url4"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+    
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView5"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_hyperceiler"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title5"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view5"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url5"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView6"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_hyperceiler"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title6"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view6"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url6"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView7"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_shizuku"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title7"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view7"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url7"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView8"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_shizuku"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title8"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view8"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url8"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView9"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_xposed"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title9"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view9"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url9"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView10"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_lsp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title10"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view10"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url10"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView11"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_lsp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title11"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view11"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url11"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView12"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_libchecker"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title12"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view12"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url12"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView13"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_jshook"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title13"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view13"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url13"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView14"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_appmanager"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title14"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view14"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url14"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView15"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_termux"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title15"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view15"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url15"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView16"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_modules"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title16"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view16"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url16"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView17"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_modules"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title17"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view17"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url17"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView18"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_qa"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title18"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view18"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url18"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView19"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_kitsune_mask"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title19"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view19"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url19"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView20"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_key"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title20"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view20"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url20"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView21"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_java"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title21"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view21"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url21"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView22"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_limbo"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title22"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view22"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url22"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView23"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_winlator"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title23"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view23"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url23"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView24"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_wsa"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title24"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view24"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url24"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView25"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_linux"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title25"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view25"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url25"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView26"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_reqable"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title26"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view26"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url26"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView27"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_mi"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title27"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view27"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url27"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView28"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_wsa"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title28"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view28"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url28"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView29"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_android"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title29"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view29"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url29"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView30"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_google"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title30"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view30"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url30"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView31"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_androidide"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title31"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view31"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url31"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView32"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_androidide"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title32"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view32"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url32"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView33"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_androidide"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title33"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view33"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url33"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView34"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_androidide"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title34"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view34"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url34"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView35"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_tts"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title35"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view35"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url35"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView36"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_xposed"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title36"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view36"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url36"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView37"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_modules"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title37"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view37"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url37"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView38"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_modules"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title38"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view38"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url38"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView39"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/task_valo_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="13dp"
+         app:cardElevation="5dp"
+         app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="13dp">
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_xyn_ashell"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_valo_title39"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+     </LinearLayout>
+                
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/task_valo_view39"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+                    
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_xyn_github"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autoLink="all"
+            android:text="@string/task_valo_url39"
+            android:textAppearance="?attr/textAppearanceBody2" />
+                    
+        </LinearLayout>
+                
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+        
+    </LinearLayout>
+    
+  </LinearLayout>
+     
+</androidx.core.widget.NestedScrollView>

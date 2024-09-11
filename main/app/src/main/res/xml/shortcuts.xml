@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+  <shortcut
+    android:shortcutId="main"
+    android:enabled="true"
+    android:icon="@drawable/ic_xyn_main"
+    android:shortcutShortLabel="@string/xyn_add_3"
+    android:shortcutLongLabel="@string/xyn_add_4">
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:targetPackage="com.android.sdk.exec"
+      android:targetClass="com.android.activity.LxynActivity" />
+    <!-- If your shortcut is associated with multiple intents, include them
+         here. The last intent in the list determines what the user sees when
+         they launch this shortcut. -->
+    <categories android:name="android.shortcut.conversation" />
+    <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+  </shortcut>
+  <!-- Specify more shortcuts here. -->
+    <shortcut
+    android:shortcutId="webview"
+    android:enabled="true"
+    android:icon="@drawable/ic_xyn_web"
+    android:shortcutShortLabel="@string/xyn_add_1"
+    android:shortcutLongLabel="@string/xyn_add_2">
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:targetPackage="com.android.sdk.exec"
+      android:targetClass="com.android.activity.WebViewActivity" />
+    <categories android:name="android.shortcut.conversation" />
+    <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+  </shortcut>
+</shortcuts>

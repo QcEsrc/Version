@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:background="@color/com_app_c"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent">
+    
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="top"
+         android:orientation="vertical">
+        
+    <androidx.appcompat.widget.Toolbar
+         android:id="@+id/my_toolbar"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:background="@color/lxyn_activity_toolbar"
+         android:elevation="4dp"
+         android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+   <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:padding="7dp"
+         android:gravity="center"
+         android:orientation="vertical">
+                
+   <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/lxyn_activity_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="16dp"
+         app:cardElevation="4dp"
+         app:cardUseCompatPadding="true">
+
+       <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:padding="17dp"
+             android:gravity="center"
+             android:orientation="vertical">
+
+            <TextView
+                 android:id="@+id/root1"
+                 android:layout_marginTop="10dp"
+                 android:textColor="@color/lxyn_activity_text"
+                 android:textSize="20sp"
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content" />
+
+            <TextView
+                 android:id="@+id/root2"
+                 android:layout_marginTop="10dp"
+                 android:textColor="@color/lxyn_activity_text"
+                 android:textSize="20sp"
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content" />
+                        
+            <TextView
+                 android:id="@+id/root4"
+                 android:layout_marginTop="10dp"
+                 android:textColor="@color/lxyn_activity_text"
+                 android:textSize="20sp"
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content" />
+
+            <TextView
+                 android:id="@+id/root3"
+                 android:layout_marginTop="10dp"
+                 android:textColor="@color/lxyn_activity_text"
+                 android:textSize="20sp"
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content" />
+
+            <Button
+                 android:id="@+id/root_0a"
+                 android:textColor="@color/lxyn_activity_button_text"
+                 android:backgroundTint="@color/lxyn_activity_button"
+                 android:text="@string/activity_root_1"
+                 android:layout_marginTop="10dp"
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content" />
+
+        </LinearLayout>
+
+ </androidx.cardview.widget.CardView>
+                
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/lxyn_activity_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="16dp"
+         app:cardElevation="4dp"
+         app:cardUseCompatPadding="true">
+
+       <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="wrap_content"
+             android:padding="17dp"
+             android:gravity="center"
+             android:orientation="vertical">
+
+        <TextView
+             android:text="@string/activity_root_10"
+             android:textColor="@color/lxyn_activity_text"
+             android:textSize="17sp"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content" />
+                                   
+        </LinearLayout>
+                
+  </androidx.cardview.widget.CardView>
+                
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/lxyn_activity_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="16dp"
+         app:cardElevation="4dp"
+         app:cardUseCompatPadding="true">
+
+       <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="wrap_content"
+             android:padding="17dp"
+             android:gravity="center"
+             android:orientation="vertical">
+
+        <TextView
+             android:text="@string/activity_root_9"
+             android:textColor="@color/lxyn_activity_text"
+             android:textSize="17sp"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content" />
+                                   
+        </LinearLayout>
+
+   </androidx.cardview.widget.CardView>
+            
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView6"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/lxyn_activity_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="16dp"
+         app:cardElevation="4dp"
+         app:cardUseCompatPadding="true">
+                
+  <com.google.android.material.slider.Slider
+         android:id="@+id/root_1c"
+         android:layout_marginTop="7dp"
+         android:layout_marginBottom="7dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:trackColorActive="@color/lxyn_activity_seekbar_b"
+         app:trackColorInactive="@color/lxyn_activity_seekbar_c" />
+            
+     </androidx.cardview.widget.CardView>
+                
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView4"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/lxyn_activity_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="16dp"
+         app:cardElevation="4dp"
+         app:cardUseCompatPadding="true">
+                    
+       <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:orientation="vertical">
+                
+        <TextView
+             android:layout_marginTop="10dp"
+             android:text="@string/activity_root_2"
+             android:textColor="@color/lxyn_activity_text"
+             android:textSize="31sp"
+             android:layout_marginBottom="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content" />
+                    
+        </LinearLayout>
+            
+   </androidx.cardview.widget.CardView>
+                
+    <androidx.cardview.widget.CardView
+         android:id="@+id/androidx_CardView5"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/lxyn_activity_card"
+         android:clickable="true"
+         android:foreground="?selectableItemBackground"
+         app:cardCornerRadius="16dp"
+         app:cardElevation="4dp"
+         app:cardUseCompatPadding="true">
+                    
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:orientation="vertical">
+                
+        <TextView
+             android:layout_marginTop="10dp"
+             android:text="@string/activity_root_8"
+             android:textColor="@color/lxyn_activity_text"
+             android:textSize="40sp"
+             android:layout_marginBottom="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content" />
+                    
+            </LinearLayout>
+            
+  </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    
+  </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

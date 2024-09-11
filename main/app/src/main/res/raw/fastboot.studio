@@ -1,0 +1,21 @@
+boot.img
+fastboot flash boot boot.img
+
+init_boot.img
+fastboot flash init_boot init_boot.img
+
+dtbo.img
+fastboot flash dtbo dtbo.img
+
+Android reboot
+adb reboot
+adb reboot recovery
+adb reboot system
+adb reboot fastboot
+adb reboot bootloader
+
+su reboot
+su reboot recovery
+su reboot system
+su reboot fastboot
+su reboot bootloader

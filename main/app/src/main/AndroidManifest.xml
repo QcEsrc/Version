@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shell="true"
+    android:installLocation="auto">
+    
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:xlargeScreens="true" />
+
+     <queries>
+        <package android:name="com.termux.api" />
+        <package android:name="com.termux" />
+        <package android:name="com.xiaomi.joyose" />
+        <package android:name="com.miui.analytics" />
+        <package android:name="com.android.settings" />
+        <package android:name="me.weishu.kernelsu" />
+        <package android:name="io.github.huskydg.magisk" />
+        <package android:name="me.jsonet.jshook" />
+        <package android:name="com.xiaomi.market" />
+        <package android:name="com.google.android.webview" />
+        <package android:name="com.android.settings.intelligence" />
+        <package android:name="com.android.managedprovisioning" />
+        <package android:name="com.android.providers.settings" />
+        <package android:name="com.xiaomi.misettings" />
+        <package android:name="com.google.android.gms" />
+        <package android:name="com.android.vending" />
+        <package android:name="me.bmax.apatch" />
+        <package android:name="moe.shizuku.privileged.api" />
+        <package android:name="com.shizuku.uninstaller" />
+        <package android:name="com.yxer.packageinstalles" />
+        <package android:name="rikka.appops" />
+        <package android:name="ru.maximoff.apktool" />
+        <package android:name="blackdex.eyeofeden.top" />
+        <package android:name="com.android.shell" />
+        <package android:name="com.miui.securitycenter" />
+        <package android:name="com.miui.thirdappassistant" />
+        <package android:name="com.miui.dmregservice" />
+        <package android:name="com.miui.rom" />
+        <package android:name="com.android.vending" />
+        <package android:name="com.android.sdk.exec" />
+     </queries>
+
+    <queries>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <category
+                android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <category
+                android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="http" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <category
+                android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="ftp" />
+        </intent>
+    </queries>
+    
+    <uses-permission android:name="android.permission.READ_BASIC_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.DUMP" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_FILE_MANAGEMENT" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_HEALTH" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_PHONE_CALL" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING" />
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+    <uses-permission android:name="android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND" />
+    <uses-permission android:name="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission  android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission  android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_PROFILE" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM" />
+    <uses-permission android:name="android.permission.WRITE_SOCIAL_STREAM" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+    <uses-permission android:name="android.permission.READ_INSTALL_SESSIONS" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_INSTALL_SESSIONS" />
+    <uses-permission android:name="android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    
+    <application 
+        android:shell="true"
+        android:enabled="true"
+        android:allowBackup="true" 
+        android:persistent="true"
+        android:vmSafeMode="true"
+        android:directBootAware="false"
+        android:usesNonSdkApi="true"
+        android:extractNativeLibs="true"
+        android:resizeableActivity="true"
+        android:usesCleartextTraffic="true"
+        android:attributionsAreUserVisible="true"
+        android:preserveLegacyExternalStorage="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:name="android.sys.src.MinSdk"
+        android:appCategory="productivity"
+        android:icon="@mipmap/ic_launcher" 
+        android:roundIcon="@mipmap/ic_launcher" 
+        android:label="@string/app_name" 
+        android:supportsRtl="true" 
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="META-INF"
+            android:value="MLAG-V3.0" />
+        <meta-data
+            android:name="Project"
+            android:resource="@raw/applifecycleprovider" />
+        <meta-data
+            android:name="Https"
+            android:resource="@xml/network_security_config" />
+        <meta-data
+            android:name="Flie"
+            android:resource="@xml/file" />
+        <meta-data
+            android:name="Android Permission"
+            android:resource="@raw/shell" />
+        <meta-data
+            android:name="GitHub"
+            android:resource="@raw/github" />
+        <meta-data
+            android:name="Android Kernel"
+            android:resource="@raw/kernel" />
+        <meta-data
+            android:name="FastBoot"
+            android:resource="@raw/fastboot" />
+        <meta-data
+            android:name="lspatch"
+            android:resource="@raw/lspatch" />
+			
+        <activity-alias
+             android:label="@string/app_activity_name"
+             android:name="com.android.shell"
+             android:exported="true"
+             android:enabled="true"
+             android:targetActivity="com.android.activity.TaskActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data 
+                 android:name="android.app.shortcuts"
+                 android:resource="@xml/shortcuts" />
+        </activity-alias>
+        
+        <service
+            android:name="com.android.sdk.NotificationService"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false"
+            android:foregroundServiceType="specialUse"
+            android:permission="android.permission.POST_NOTIFICATIONS" >
+        </service>
+        
+        <activity 
+            android:label="@string/app_app_name"
+            android:theme="@style/TActivityTheme"
+            android:name="com.android.activity.TaskActivity" 
+            android:permission="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND"
+            android:process=":shell"
+            android:immersive="true"
+            android:directBootAware="false"
+            android:stateNotNeeded="true"
+            android:launchMode="singleInstancePerTask"
+            android:windowSoftInputMode="adjustPan"
+            android:persistableMode="persistNever"
+            android:enableVrMode="true"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                  <action android:name="android.intent.action.VIEW" />
+                  <category android:name="android.intent.category.DEFAULT" />
+                  <category android:name="android.intent.category.BROWSABLE" />
+                  <data android:scheme="http" />
+                  <data android:scheme="https" />
+                  <data android:scheme="ftp" />
+                  <data android:scheme="market" />
+                  <data android:scheme="://" />
+                  <data android:host="././././" />
+                  <data android:host="......" />
+                  <data android:host="/./././." />
+                  <data android:host="#########" />
+                  <data android:host="vpn" />
+            </intent-filter>
+            <meta-data 
+                 android:name="android.app.shortcuts"
+                 android:resource="@xml/shortcuts" />
+        </activity>
+        
+        <activity 
+            android:label="@string/app_activity_lxyn"
+            android:name="com.android.activity.LxynActivity" 
+            android:theme="@style/LActivityTheme"
+            android:showForAllUsers="false"
+            android:permission="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND"
+            android:immersive="true"
+            android:stateNotNeeded="true"
+            android:launchMode="singleInstancePerTask"
+            android:windowSoftInputMode="adjustPan"
+            android:directBootAware="false"
+            android:enableVrMode="true"
+            android:enabled="true"
+            android:exported="true" />
+        
+        <activity 
+            android:label="@string/app_activity_web"
+            android:theme="@style/ActivityTheme"
+            android:name="com.android.activity.WebViewActivity" 
+            android:permission="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND"
+            android:immersive="true"
+            android:stateNotNeeded="true"
+            android:directBootAware="false"
+            android:launchMode="singleInstancePerTask"
+            android:windowSoftInputMode="adjustPan"
+            android:enableVrMode="true"
+            android:enabled="true"
+            android:exported="true" />
+        
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.android.sdk.exec.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file" />
+       </provider>
+        
+        <provider
+            android:name=".AppLifecycleProvider"
+            android:authorities="com.android.sdk.exec.applifecycleprovider"
+            android:grantUriPermissions="true"
+            android:exported="true">
+        </provider>
+       
+    </application>
+</manifest>

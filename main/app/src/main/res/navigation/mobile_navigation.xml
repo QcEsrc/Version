@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_fragment_save">
+        
+    <fragment
+        android:id="@+id/navigation_fragment_valo"
+        android:name="com.android.activity.ui.valo.ValoFragment"
+        android:label="@string/title_fragment_valo" 
+        tools:layout="@layout/fragment_valo" />
+
+    <fragment
+        android:id="@+id/navigation_fragment_task"
+        android:name="com.android.activity.ui.task.TaskFragment"
+        android:label="@string/title_fragment_task"
+        tools:layout="@layout/fragment_task" />
+
+    <fragment
+        android:id="@+id/navigation_fragment_save"
+        android:name="com.android.activity.ui.save.SaveFragment"
+        android:label="@string/title_fragment_save"
+        tools:layout="@layout/fragment_save" />
+
+    <fragment
+        android:id="@+id/navigation_fragment_just"
+        android:name="com.android.activity.ui.just.JustFragment"
+        android:label="@string/title_fragment_just"
+        tools:layout="@layout/fragment_just" />
+        
+    <fragment
+        android:id="@+id/navigation_fragment_fast"
+        android:name="com.android.activity.ui.fast.FastFragment"
+        android:label="@string/title_fragment_fast"
+        tools:layout="@layout/fragment_fast" />
+        
+</navigation>

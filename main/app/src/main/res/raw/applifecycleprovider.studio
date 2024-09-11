@@ -1,0 +1,6 @@
+com.android.sdk.exec:activity
+com.android.sdk.exec:fragment
+com.android.sdk.exec:service
+com.android.sdk.exec:receiver
+com.android.sdk.exec:provider
+com.android.sdk.exec:application

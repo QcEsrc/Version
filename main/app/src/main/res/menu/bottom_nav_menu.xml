@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_fragment_valo"
+        android:icon="@drawable/ic_fragment_valo"
+        android:title="@string/title_fragment_valo"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/navigation_fragment_task"
+        android:icon="@drawable/ic_fragment_task"
+        android:title="@string/title_fragment_task"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/navigation_fragment_save"
+        android:icon="@drawable/ic_fragment_save"
+        android:title="@string/title_fragment_save"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/navigation_fragment_just"
+        android:icon="@drawable/ic_fragment_just"
+        android:title="@string/title_fragment_just"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/navigation_fragment_fast"
+        android:icon="@drawable/ic_fragment_fast"
+        android:title="@string/title_fragment_fast"
+        android:showAsAction="ifRoom|withText" />
+
+</menu>

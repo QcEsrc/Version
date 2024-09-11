@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="@color/com_app_s"
+     android:id="@+id/androidx_NestedScrollView"
+     tools:context="com.android.activity.ui.fast.FastFragment" >
+    
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="top"
+         android:paddingTop="60dp"
+         android:paddingEnd="5dp"
+         android:paddingStart="5dp"
+         android:paddingBottom="85dp"
+         android:orientation="vertical">
+
+   <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+            
+        <ImageView
+            android:src="@mipmap/image_002"
+            android:layout_marginEnd="23sp"
+            android:layout_marginStart="3sp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circular_background"
+            android:clipToOutline="true"
+            android:layout_height="72dp"
+            android:layout_width="72dp" />
+            
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="vertical">
+                
+        <TextView
+            android:text="标识符：Qualcomm Snapdragon"
+            android:textSize="17sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="18sp"
+            android:layout_marginTop="1dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+                
+        <TextView
+            android:text="尊贵的高通骁龙®机型用户"
+            android:textSize="17sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="18sp"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+            
+        <TextView
+            android:text="至尊状态：超级至尊SVIP(时长:999999999)"
+            android:textSize="17sp"
+            android:layout_marginEnd="18sp"
+            android:layout_marginTop="3dp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+            
+        </LinearLayout>
+            
+    </LinearLayout>
+        
+        <TextView
+            android:text="QQ反馈群：371817558 (暂未开放聊天，请耐心等待开放)"
+            android:textSize="17sp"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="13dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="应用支持范围: Android 6.0 ~ 15"
+            android:textSize="17sp"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="一直保持遵遁Android安全机制的状态"
+            android:textSize="17sp"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="完全本地化，资源全放在安装包内访问，完全不依赖任何本地数据"
+            android:textSize="17sp"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+            
+        <TextView
+            android:text="@string/task_fast_text1"
+            android:textSize="23sp"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.viewBinding"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.dataBinding"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.navigation:navigation-fragment-ktx:2.8.0"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.constraintlayout:constraintlayout:2.1.4"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="com.google.android.material:material:1.12.0"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.navigation:navigation-ui-ktx:2.8.0"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.appcompat:appcompat:1.7.0"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.lifecycle:lifecycle-livedata-ktx:2.8.5"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.lifecycle:lifecycle-process:2.8.5"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.lifecycle:lifecycle-runtime-ktx:2.8.5"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.lifecycle:lifecycle-reactivestreams-ktx:2.8.5"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.core:core-ktx:1.13.1"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="androidx.room:room-ktx:2.6.1"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <TextView
+            android:text="com.squareup.okhttp3:okhttp:4.12.0"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:text="androidx.activity:activity-ktx:1.9.2"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:text="androidx.fragment:fragment-ktx:1.8.3"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:text="com.google.guava:guava:33.3.0-jre"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:text="com.squareup.retrofit2:retrofit:2.11.0"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+       <TextView
+            android:text="com.squareup.retrofit2:converter-gson:2.11.0"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+       <TextView
+            android:text="androidx.compose.ui:ui:1.7.0"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_marginEnd="3sp"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    
+  </LinearLayout>
+     
+</androidx.core.widget.NestedScrollView>

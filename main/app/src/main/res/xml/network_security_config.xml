@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">168.0.0.1</domain>
+        <domain includeSubdomains="true">137.0.0.1</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">0.0.0.0</domain>
+        <domain includeSubdomains="true">173.0.0.1</domain>
+        <domain includeSubdomains="true">163.0.0.1</domain>
+        <domain includeSubdomains="true">135.0.0.1</domain>
+        <domain includeSubdomains="true">121.0.0.1</domain>
+        <domain includeSubdomains="true">116.0.0.1</domain>
+        <domain includeSubdomains="true">113.255.233.111</domain>
+        <domain includeSubdomains="true">108.36.72.80</domain>
+        <domain includeSubdomains="true">134.6.7.3</domain>
+        <domain includeSubdomains="true">174.36.32.7</domain>
+        <domain includeSubdomains="true">100.100.100.100</domain>
+        <domain includeSubdomains="true">366.255.331.174</domain>
+        <domain includeSubdomains="true">72.6.34.8</domain>
+        <domain includeSubdomains="true">167.3.4.9</domain>
+        <domain includeSubdomains="true">168.72.36.27</domain>
+        <domain includeSubdomains="true">170.36.72.68</domain>
+        <domain includeSubdomains="true">36.26.73.18</domain>
+        <domain includeSubdomains="true">168.163.134.76</domain>
+        <domain includeSubdomains="true">168.136.73.36</domain>
+        <domain includeSubdomains="true">::1</domain>
+    </domain-config>
+</network-security-config>

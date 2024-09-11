@@ -1,0 +1,12 @@
+###########################
+-keep class com.** { *; }
+-keep class android.** { *; }
+-keep class androidx.** { *; }
+-keep class kotlin.** { *; }
+-keep class kotlinx.** { *; }
+-keep class okio.** { *; }
+-keep class okhttp3.** { *; }
+-keep class org.** { *; }
+-keep class _COROUTINE.** { *; }
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile

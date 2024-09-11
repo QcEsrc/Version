@@ -1,0 +1,15 @@
+name: Run Ci
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+ runfile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Runs
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository }}

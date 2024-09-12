@@ -1,22 +1,37 @@
 plugins {
     id("com.android.application")
     id("kotlin-android")
+    id("org.jetbrains.kotlin.plugin.compose")
 }
 
 android {
-    namespace = "com.android.sdk.exec"
+    namespace = "com.win.x86.x64"
     compileSdk = 34
     buildToolsVersion = "34.0.4"
-    ndkVersion = "26.1.10909125"
     
-    androidResources {
-        noCompress.add(".so")
+    defaultConfig {
+        applicationId = "com.win.x86.x64"
+        minSdk = 26
+        targetSdk = 34
+        versionCode = 1
+        versionName = "v0.0.1"
+        
+        vectorDrawables { 
+            useSupportLibrary = true
+        }
     }
-    sourceSets {
-        getByName("main") {
-            jniLibs {
-                srcDirs("libs")
-            }
+    
+    signingConfigs {
+        create("win") {
+            storeFile = file("keystore/win.keystore")
+            storePassword = findProperty("KEYSTORE_PASSWORD") as String
+            keyAlias = findProperty("KEY_ALIAS") as String
+            keyPassword = findProperty("KEY_PASSWORD") as String
+            
+            enableV1Signing = false
+            enableV2Signing = true
+            enableV3Signing = true
+            enableV4Signing = true
         }
     }
     
@@ -29,49 +44,6 @@ android {
         }
     }
     
-    defaultConfig {
-        applicationId = "com.android.sdk.exec"
-        minSdk = 23
-        targetSdk = 35
-        versionCode = 11
-        versionName = "v0.0.36"
-        
-        vectorDrawables { 
-            useSupportLibrary = true
-        }
-        
-        externalNativeBuild {
-            cmake {
-                abiFilters("arm64-v8a", "armeabi-v7a", "x86_64", "x86")
-                
-            }
-        }
-    }
-    
-    externalNativeBuild {
-        cmake {
-            // CMakeLists.txt 
-            path("src/main/cpp/CMakeLists.txt")
-            
-        }
-        
-    }
-    
-    signingConfigs {
-        create("library") {
-        // 签名路径，签名文件，.bks 或 .jks
-            storeFile = file("keystore/library.keystore")
-            storePassword = ""
-            keyAlias = ""
-            keyPassword = ""
-            
-            enableV1Signing = true
-            enableV2Signing = true
-            enableV3Signing = true
-            enableV4Signing = true
-        }
-    }
-    
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -81,26 +53,30 @@ android {
         release {
             isMinifyEnabled = false
             isShrinkResources = false
-            signingConfig = signingConfigs.getByName("library")
+            signingConfig = signingConfigs.getByName("win")
         }
         debug {
             isMinifyEnabled = false
             isDebuggable = true
-            signingConfig = signingConfigs.getByName("library")
+            signingConfig = signingConfigs.getByName("win")
         }
     }
 
     buildFeatures {
-        viewBinding = true
-        dataBinding = true
         aidl = true
         buildConfig = true
+        compose = true
     }
     
+    composeCompiler {
+        enableStrongSkippingMode = true
+
+        reportsDestination = layout.buildDirectory.dir("compose_compiler")
+    }
+
     kotlinOptions {
         jvmTarget = "17"
     }
-    
 }
 
 tasks
@@ -114,25 +90,18 @@ tasks
     }
 
 dependencies {
-    val lifecycle_version = "2.8.5"
-    
-    implementation("androidx.navigation:navigation-fragment-ktx:2.8.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("com.google.android.material:material:1.12.0")
-    implementation("androidx.navigation:navigation-ui-ktx:2.8.0")
-    implementation("androidx.appcompat:appcompat:1.7.0")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
-    implementation("androidx.lifecycle:lifecycle-process:$lifecycle_version")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version")
-    implementation("androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycle_version")
+    implementation("androidx.navigation:navigation-compose:2.8.0")
+    implementation(platform("androidx.compose:compose-bom:2024.09.01"))
+    debugImplementation("androidx.compose.ui:ui-tooling")
     implementation("androidx.core:core-ktx:1.13.1")
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("androidx.room:room-ktx:2.6.1")
-    implementation("androidx.activity:activity-ktx:1.9.2")
-    implementation("androidx.fragment:fragment-ktx:1.8.3")
-    implementation("com.google.guava:guava:33.3.0-jre")
-    implementation("com.squareup.retrofit2:retrofit:2.11.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
-    implementation("androidx.compose.ui:ui:1.7.0")
+    implementation("androidx.compose.ui:ui-tooling-preview")
+    implementation("androidx.compose.material3:material3")
+    implementation("androidx.activity:activity-compose:1.9.2")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.5")
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.ui:ui-graphics")
+    implementation("androidx.compose.animation:animation")
+    implementation("androidx.compose.foundation:foundation")
+    implementation("androidx.compose.runtime:runtime")
+    debugImplementation("androidx.compose.ui:ui-test-manifest")
 }

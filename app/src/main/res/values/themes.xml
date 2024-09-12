@@ -1,28 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- Base application theme. -->
-  <style name="Base.AppTheme" parent="Theme.Material3.DayNight">
-     <item name="actionBarSize">39dp</item>
-    <item name="colorPrimaryDark">@color/com_apps_s</item>
-    <item name="colorPrimaryVariant">@color/com_apps_ss</item>
-  </style>
-  <style name="AppTheme" parent="Base.AppTheme" />
-  <!-- Base activity theme. -->
-  <style name="Base.Activity.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
-    <!-- item. -->
-    <item name="colorPrimaryDark">@color/com_apps</item>
-    <item name="colorPrimary">@color/com_apps</item>
-  </style>
-  <style name="ActivityTheme" parent="Base.Activity.AppTheme" />
-  <!-- Base LxynActivity theme. -->
-  <style name="Base.LActivity.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
-    <item name="colorPrimary">@color/com_app_c</item>
-    <item name="colorPrimaryDark">@color/com_apps_c</item>
-  </style>
-  <style name="LActivityTheme" parent="Base.LActivity.AppTheme" />
-    <!-- Base TaskActivity theme. -->
-  <style name="Base.TActivity.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
-    <item name="colorPrimaryDark">@color/com_apps_s</item>
-    <item name="colorPrimaryVariant">@color/com_apps_ss</item>
-  </style>
-  <style name="TActivityTheme" parent="Base.TActivity.AppTheme" />
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>

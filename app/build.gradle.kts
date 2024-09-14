@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("kotlin-android")
     id("org.jetbrains.kotlin.plugin.compose")
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -99,7 +100,17 @@ dependencies {
     val accompanist = "0.36.0"
     val room = "2.6.1"
     val retrofit = "2.11.0"
-    implementation(platform("androidx.compose:compose-bom:2024.09.01"))
+    val composeBom = platform("androidx.compose:compose-bom:2024.09.01")
+    implementation(composeBom)
+    testImplementation(composeBom)
+    androidTestImplementation(composeBom)
+    ksp(composeBom)
+    annotationProcessor(composeBom)
+    runtimeOnly(composeBom)
+    debugImplementation(composeBom)
+    implementation(kotlin("stdlib-jdk8"))
+    implementation("com.google.dagger:dagger-compiler:2.51.1")
+    ksp("com.google.dagger:dagger-compiler:2.51.1")
     implementation("io.reactivex.rxjava3:rxandroid:3.0.2")
     implementation("io.reactivex.rxjava3:rxjava:3.1.9")
     implementation("io.reactivex.rxjava3:rxkotlin:3.0.1")

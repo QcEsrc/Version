@@ -1,9 +1,10 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    id("com.android.application") version "8.6.0" apply false
-    id("com.android.library") version "8.6.0" apply false
-    id("org.jetbrains.kotlin.android") version "2.0.20" apply false  
-    id("org.jetbrains.kotlin.plugin.compose") version "2.0.20" apply false  
+    val gradle_version = "8.6.0"
+    val kotlin_version = "2.0.20"
+    id("com.android.application") version "$gradle_version" apply false
+    id("com.android.library") version "$gradle_version" apply false
+    id("org.jetbrains.kotlin.android") version "$kotlin_version" apply false  
+    id("org.jetbrains.kotlin.plugin.compose") version "$kotlin_version" apply false  
 }
 
 tasks.register<Delete>("clean") {

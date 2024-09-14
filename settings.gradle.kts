@@ -15,6 +15,7 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Jetpack Compose"
+val string = "Jetpack Compose"
+rootProject.name = "$string"
 
 include(":app")

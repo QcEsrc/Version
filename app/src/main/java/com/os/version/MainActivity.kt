@@ -4,6 +4,8 @@ import android.os.Build
 import android.os.Bundle
 import android.app.ActivityManager
 import android.content.Context
+import android.provider.Settings
+import android.view.Display
 import android.view.WindowManager
 import android.util.DisplayMetrics
 import android.content.res.Resources
@@ -15,6 +17,9 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.widget.NestedScrollView
 import java.text.SimpleDateFormat
 import java.util.Locale
+import java.io.BufferedReader
+import java.io.FileReader
+import java.io.IOException
 
 class MainActivity : AppCompatActivity() {
 
@@ -71,9 +76,11 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
         val deviceConfigurationInfo = activityManager.deviceConfigurationInfo
 
       val gpuName = deviceConfigurationInfo.glEsVersion
+      
+      val androidId = Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID)
 
         // TextView 
-        binding.textViewHello.text = "Version"
+        binding.textViewHello.text = getString(R.string.hello_version)
         binding.textViewBoard.text = "Motherboard: $boardName"
         binding.textViewDevice.text = "Device: $systemName"
         binding.textViewAndroidVersion.text = "Android Version: $androidVersion"
@@ -90,6 +97,25 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
         binding.textViewBuildTime.text = "Build Time: $formattedDate"
         binding.textViewHardwareName.text = "Hardware Name: $hardwareName"
         binding.textViewgpuName.text = "OpenGL ES: $gpuName"
+        binding.textViewAndroidId.text = "Android ID: $androidId"
+        
+        val supportedRefreshRates = getSupportedRefreshRates(this)
+        val sortedRefreshRates = supportedRefreshRates.sorted()
+        val refreshRateText = sortedRefreshRates.joinToString(", ") { "$it Hz" }
+        binding.textViewRefreshRates.text = "Supported Refresh Rates: $refreshRateText"
+    }
+    
+    private fun getSupportedRefreshRates(context: Context): List<Float> {
+        val refreshRates = mutableListOf<Float>()
+        val windowManager = context.getSystemService(Context.WINDOW_SERVICE) as WindowManager
+        val display: Display = windowManager.defaultDisplay
+
+        val supportedRefreshRates = display.supportedModes
+        for (mode in supportedRefreshRates) {
+            refreshRates.add(mode.refreshRate)
+        }
+
+        return refreshRates
     }
     
     override fun onDestroy() {

@@ -10,7 +10,7 @@
         android:resizeable="true"
         android:xlargeScreens="true" />
         
-   <!-- <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!-- <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" /> -->
     <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
     
